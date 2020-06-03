@@ -1,0 +1,14 @@
+<h2>My actions</h2>
+
+<div class="container">
+  <div class="row">
+      {{#each actions}}
+      <div class="card text-left m-5">
+        <img class="card-img-top" src="{{img}}" width="200px" alt="chart">
+        <div class="card-body">
+          <h4 class="card-title"><a href="/chart/{{_id}}">{{name}}</a></h4>
+        </div>
+      </div>
+      {{/each}}
+  </div>
+</div>
